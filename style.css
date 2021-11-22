@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0
+  font-size: 100%;
+  background-color:#21252B;
+  background: url("bg.svg");
+  background-size: 50vw;
+}
+body::after{
+  content: "";
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+#main {
+  color: #ffffff;
+}
