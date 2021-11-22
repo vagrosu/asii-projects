@@ -10,17 +10,12 @@
 </head>
 <body>
     <?php
-        include("lista_proiecte.php");  
+        include("navbar.php");  
     ?>
-    <div style="padding-left: 6%; padding-right: 6%;">
-        <div class="row">
-          <?php
-            for($i = 0; $i < count($proiecte); $i++)
-              {
-                include("card.php");
-              }
-            ?>
-        </div>
-    </div>
+    
+
+    <?php
+        include("footer.php");  
+    ?>
 </body>
 </html>
