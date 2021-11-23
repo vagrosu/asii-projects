@@ -21,13 +21,15 @@
     ?>
     <!-- Contents -->
     <div id="inner">
-      <div class="row">
-        <header>
-            Esti pregatit sa castigi?
-        </header>
-        <div>
-            Inaite sa te inscrii la oricare dintre competitii nu uita sa consulti regulamentul dupa care se vor desfasura fiecare joc.
-        </div>
+      <div class="row ">
+          <div class="hero-image start">
+                <header>
+                    Esti pregatit sa castigi?
+                </header>
+                <div>
+                    Inaite sa te inscrii la oricare dintre competitii nu uita sa consulti regulamentul dupa care se vor desfasura fiecare joc.
+                </div>
+            </div>
       </div>
       <div class="row">
         <header>
@@ -97,7 +99,7 @@
 
       <div class="reguli-container">
 
-        <div class="regulamente">
+        <div class="regulamente hero-image cs">
             <header>
                 3v3 CS:GO, 30 RON/echipa
             </header>
@@ -113,7 +115,7 @@
             </div>
         </div>
 
-        <div class="regulamente">
+        <div class="regulamente hero-image lol1">
             <header>
             1v1 League of Legends, 10 RON/participant
             </header>
@@ -129,7 +131,7 @@
                 </div>
             </div>
 
-        <div class="regulamente">
+        <div class="regulamente  hero-image lol5">
             <header>
                 5v5 League of Legends, 60 RON/echipa
             </header>
@@ -147,7 +149,7 @@
             </div>
         </div>
 
-        <div class="regulamente">
+        <div class="regulamente  hero-image hs">
             <header>
             1v1 HearthStone, 10 RON/participant
             </header>
@@ -164,9 +166,9 @@
             </div>
         </div>
 
-        <div class="regulamente">
+        <div class="regulamente  hero-image dota">
             <header>
-            DOTA
+            1v1 Dota 2, 10 RON/participant
             </header>
             <div>
                 <ol class="center-list">
@@ -185,9 +187,9 @@
             </div>
         </div>
 
-        <div class="regulamente">
+        <div class="regulamente  hero-image  metin">
             <header>
-            Metin2
+            1v1 Metin2, 5 RON/participant
             </header>
             <div>
                 <ol class="center-list">

@@ -4,6 +4,46 @@ html, body {
 body{
     background-color: rgb(35, 90, 100);
 }
+
+.hero-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image.start{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("../../media_regulament/bg.jpg");
+  height: 500px;
+}
+
+.hero-image.cs{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgb(0, 0, 0, 0.678)),
+    url("../../media_regulament/rule_cs_bg.jpg");
+}
+
+.hero-image.lol1{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgb(0, 0, 0, 0.678)),
+    url("../../media_regulament/rule_lol1_bg.jpg");
+}
+
+.hero-image.lol5{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgb(0, 0, 0, 0.678)),
+    url("../../media_regulament/rule_lol5_bg.jpg");
+}
+
+.hero-image.hs{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgb(0, 0, 0, 0.678)),
+    url("../../media_regulament/rule_hs_bg.jpg");
+}
+
+.hero-image.dota{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgb(0, 0, 0, 0.678)),
+    url("../../media_regulament/rule_dota_bg.jpg");
+}
+.hero-image.metin{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678), rgb(0, 0, 0, 0.678)),
+    url("../../media_regulament/rule_metin_bg.jpg");
+}
 body {
   margin:0;
   padding:0;
@@ -145,5 +185,13 @@ header{
   display: none;
   padding: 20px;
   min-height: 20%;
+}
+
+.hero-image{
+  background-image: url("../../media_regulament/bg.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 }
