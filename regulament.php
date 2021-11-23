@@ -5,33 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="icon" href="logo-icon.png">
      <!-- BOOTSTRAP INCLUDE -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>    
-    
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./media_regulament/regulament.css">
-    
-   
-    <title>Regulament</title>
+    <title>Regulament - LAN Party</title>
 </head>
 <body>
+  <div id="main">
+    <!-- Header -->
     <?php
-        include("navbar.php");  
+        include("navbar.php");
     ?>
-    
-    <div class="row">
+    <!-- Contents -->
+    <div id="inner">
+      <div class="row">
         <header>
             Esti pregatit sa castigi?
         </header>
         <div>
             Inaite sa te inscrii la oricare dintre competitii nu uita sa consulti regulamentul dupa care se vor desfasura fiecare joc.
         </div>
-    </div>
-
-    <div class="row">
+      </div>
+      <div class="row">
         <header>
         Regulament de ordine interioara:
         </header>
@@ -56,7 +54,7 @@
                     Jucatorii vor avea grija de echipamentul utilizat.
                 </li>
                 <li>
-                    Pentru orice problema sau nelamurire, apelati la organizatori. 
+                    Pentru orice problema sau nelamurire, apelati la organizatori.
                 </li>
                 <li>
                     Deconectarea intentionata a unui calculator in timpul meciului atrage dupa sine pierderea meciului prin forfeit.
@@ -67,11 +65,11 @@
                 <li>
                     Ratarea ferestrei de 10 minute de la strigare are ca rezultat descalificarea
                 </li>
-            </ol>  
+            </ol>
         </div>
-    </div>
+      </div>
 
-    <div class="row d-flex justify-content-center slide_show_row">
+      <div class="row d-flex justify-content-center slide_show_row">
         <div class="dot" onclick="currentSlide(1)">
             <img src="./media_regulament/cs.png">
         </div>
@@ -87,17 +85,17 @@
         <div class="dot" onclick="currentSlide(4)">
             <img src="./media_regulament/hs.png">
         </div>
-        
+
         <div class="dot" onclick="currentSlide(5)">
             <img src="./media_regulament/dota.png">
         </div>
-        
+
         <div class="dot" onclick="currentSlide(6)">
             <img src="./media_regulament/metin2.png">
         </div>
-    </div>
+      </div>
 
-    <div class="reguli-container">
+      <div class="reguli-container">
 
         <div class="regulamente">
             <header>
@@ -130,7 +128,7 @@
                     </ol>
                 </div>
             </div>
-            
+
         <div class="regulamente">
             <header>
                 5v5 League of Legends, 60 RON/echipa
@@ -206,11 +204,12 @@
 
         <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
         <a class="next" onclick="nextSlide(1)">&#10095;</a>
+      </div>
     </div>
+    <!-- Footer -->
     <?php
-        include("footer.php");  
+        include("footer.php");
     ?>
-    
     <script src="carousel-script.js"></script>
 </body>
 </html>
