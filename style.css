@@ -1,13 +1,18 @@
 body{
   margin: 0;
   padding: 0;
-  border: 0
+  border: 0;
   font-size: 100%;
   background-color:#21252B;
-  background: url("bg.svg");
+  
   background-size: 50vw;
 }
-body::after{
+.row{
+  max-width: 100%;
+}
+
+
+/* body::after{
   content: "";
   background-color: rgba(0,0,0,0.7);
   top: 0;
@@ -16,7 +21,82 @@ body::after{
   right: 0;
   position: absolute;
   z-index: -1;
-}
+} */
 #main {
   color: #ffffff;
+}
+
+/* ----------------- */
+#inner{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('bg.svg');
+  background-size: 50vw;
+}
+.banner-heroes{
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.banner-heroes .title, .banner-competitive .title {
+  width: 50%;
+  margin-left: 50% ;
+  transform: translateX(-50%);
+}
+.banner-heroes #title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #B84478;
+}
+.banner-heroes #subtitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+.heroes{
+  height: 70%;
+  margin: 0;
+  margin-top: 50px; 
+  background-image: url("img/Group\ 2.png");
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* --------------------- */
+.banner-competitive{
+  height: 90vh;
+  width: 100%;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-competitive #title,.banner-competitive #subtitle{
+  text-align: center;
+  font-size: 22px;
+}
+.banner-competitive .gallery{
+  width: 70%;
+}
+.gallery img{
+  height: 400px;
+}
+#regulament{
+  text-decoration: none;
+  color:red;
+  font-size: 30px;
+  text-align: center;
+  border: 3px solid red;
+  letter-spacing: -1.5px;
+}
+/* --------------------- */
+#footer{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('bg.svg');
+  background-size: 50vw;
 }
