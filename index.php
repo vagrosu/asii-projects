@@ -21,7 +21,27 @@
 
     <!-- Contents -->
     <div id="inner">
-
+        <div class="banner-heroes">
+            <div class="title">
+              <p id="title">Participa si tu!</p>
+              <p id="subtitle">Pentru a simti spiritul de gamer, inscrie-te la competitiile 5v5 sau 1v1. Iti gasim noi echipa daca nu ti-ai convins inca prietenii sa vina.</p>
+            </div>
+            <div class="heroes">
+            </div>
+        </div>
+        <!-- banner background taiat succes -->
+        <div class="banner-competitive">
+            <div class="row title"> 
+              <p id="title">Jocuri competitive</p>
+              <p id="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
+            </div>
+            <div class="row gallery">
+                <img src="img/bannercompetitive.png" alt="">
+            </div>
+            <div class="row">
+              <a href="" id="regulament">REGULAMENT</a>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
