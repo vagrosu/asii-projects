@@ -22,16 +22,20 @@
     <!-- Contents -->
     <div id="inner">
       <div class="row ">
-          <div class="hero-image start">
-                <header>
-                    Esti pregatit sa castigi?
-                </header>
-                <div>
-                    Inaite sa te inscrii la oricare dintre competitii nu uita sa consulti regulamentul dupa care se vor desfasura fiecare joc.
+          <div class="hero-image strong_shadow hero-text start">
+              <div class="row">
+                    <div class="col-md-12">
+                        <header>
+                            Esti pregatit sa castigi?
+                        </header>
+                    </div>
+                    <div class="col-md-12">
+                        Inaite sa te inscrii la oricare dintre competitii nu uita sa consulti regulamentul dupa care se vor desfasura fiecare joc.
+                    </div>
                 </div>
             </div>
       </div>
-      <div class="row">
+      <div class="row regulamente">
         <header>
         Regulament de ordine interioara:
         </header>
@@ -70,35 +74,30 @@
             </ol>
         </div>
       </div>
+    
+    
+    <!-- CAROUSEL -->
+    
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+    <div class="carousel-indicators">   
 
-      <div class="row d-flex justify-content-center slide_show_row">
-        <div class="dot" onclick="currentSlide(1)">
-            <img src="./media_regulament/cs.png">
-        </div>
+    <!-- THUMBNAILS -->
+            <img src="./media_regulament/cs.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+        
 
-        <div class="dot" onclick="currentSlide(2)">
-            <img src="./media_regulament/lol1V1.png">
-        </div>
+            <img src="./media_regulament/lol1V1.png"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" >
+        
+            <img src="./media_regulament/lol5V5.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+    
+            <img src="./media_regulament/hs.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
+            
+            <img src="./media_regulament/dota.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">
+            
+            <img src="./media_regulament/metin2.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5">
 
-        <div class="dot" onclick="currentSlide(3)">
-            <img src="./media_regulament/lol5V5.png">
-        </div>
-
-        <div class="dot" onclick="currentSlide(4)">
-            <img src="./media_regulament/hs.png">
-        </div>
-
-        <div class="dot" onclick="currentSlide(5)">
-            <img src="./media_regulament/dota.png">
-        </div>
-
-        <div class="dot" onclick="currentSlide(6)">
-            <img src="./media_regulament/metin2.png">
-        </div>
-      </div>
-
-      <div class="reguli-container">
-
+    </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
         <div class="regulamente hero-image cs">
             <header>
                 3v3 CS:GO, 30 RON/echipa
@@ -114,42 +113,48 @@
                 </ol>
             </div>
         </div>
-
+    </div>
+    <div class="carousel-item">
         <div class="regulamente hero-image lol1">
-            <header>
-            1v1 League of Legends, 10 RON/participant
-            </header>
+                <header>
+                1v1 League of Legends, 10 RON/participant
+                </header>
+                    <div>
+                        <ol class="center-list">
+                            <li>Modul de joc va fi ARAM blind pick cu banuri din lobby in chat, single elimination</li>
+                            <li>3 banuri de fiecare jucator in modul urmator, fiecare va scrie pe chat cate un campion pe care vrea sa il banez pe rand.</li>
+                            <li>In champion select este interzisa selectarea campionilor banati, acest lucru duce la eliminare.</li>
+                            <li>Se va juca pana la 100 minioni sau primul turn sau first blood.</li>
+                            <li>Warm up 5 minute inainte de inceperea propriu-zisa a competitiei.</li>
+                            <li>Se poate intarzia maxim 10 minute.</li>
+                        </ol>
+                    </div>
+            </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="regulamente hero-image lol5">
+                <header>
+                    5v5 League of Legends, 60 RON/echipa
+                </header>
                 <div>
                     <ol class="center-list">
-                        <li>Modul de joc va fi ARAM blind pick cu banuri din lobby in chat, single elimination</li>
-                        <li>3 banuri de fiecare jucator in modul urmator, fiecare va scrie pe chat cate un campion pe care vrea sa il banez pe rand.</li>
-                        <li>In champion select este interzisa selectarea campionilor banati, acest lucru duce la eliminare.</li>
-                        <li>Se va juca pana la 100 minioni sau primul turn sau first blood.</li>
+                        <li>Modul de joc 5 vs 5 tournament draft double elimination, cu finala best of 3</li>
+                        <li>Fiecare echipa va fi formata din 5 jucatori.</li>
+                        <li>Fiecare echipa va avea un capitan care va fi legatura dintre echipa si organizatori</li>
+                        <li>Fiecare echipa are dreptul la maxim 10 minute de pauza in timpul jocului,in cazul problemelor tehnice.</li>
+                        <li>In cazul in care un jucator intarzie, echipa are nevoie sa amane jocul pentru maxim 10 minute.</li>
                         <li>Warm up 5 minute inainte de inceperea propriu-zisa a competitiei.</li>
-                        <li>Se poate intarzia maxim 10 minute.</li>
+                        <li>In cazul in care nu este toata echipa, aceasta va pierde prin forfeit,ne fiind permise meciurile in handicap numeric ( ex. 4 vs 5, 3vs5 etc.)</li>
+                        <li>FIECARE ECHIPA TREBUIE SA SE INSCRIE PE <a href="">PAGINA EVENTULUI</a> PENTRU A PUTEA PRIMII PREMIILE RIOT.</li>
                     </ol>
                 </div>
-            </div>
-
-        <div class="regulamente  hero-image lol5">
-            <header>
-                5v5 League of Legends, 60 RON/echipa
-            </header>
-            <div>
-                <ol class="center-list">
-                    <li>Modul de joc 5 vs 5 tournament draft double elimination, cu finala best of 3</li>
-                    <li>Fiecare echipa va fi formata din 5 jucatori.</li>
-                    <li>Fiecare echipa va avea un capitan care va fi legatura dintre echipa si organizatori</li>
-                    <li>Fiecare echipa are dreptul la maxim 10 minute de pauza in timpul jocului,in cazul problemelor tehnice.</li>
-                    <li>In cazul in care un jucator intarzie, echipa are nevoie sa amane jocul pentru maxim 10 minute.</li>
-                    <li>Warm up 5 minute inainte de inceperea propriu-zisa a competitiei.</li>
-                    <li>In cazul in care nu este toata echipa, aceasta va pierde prin forfeit,ne fiind permise meciurile in handicap numeric ( ex. 4 vs 5, 3vs5 etc.)</li>
-                    <li>FIECARE ECHIPA TREBUIE SA SE INSCRIE PE PAGINA EVENTULUI PENTRU A PUTEA PRIMII PREMIILE RIOT.</li>
-                </ol>
-            </div>
         </div>
+    </div>
 
-        <div class="regulamente  hero-image hs">
+    
+    <div class="carousel-item">
+        <div class="regulamente hero-image hs">
             <header>
             1v1 HearthStone, 10 RON/participant
             </header>
@@ -165,8 +170,11 @@
                 </ol>
             </div>
         </div>
+    </div>
 
-        <div class="regulamente  hero-image dota">
+    
+    <div class="carousel-item">
+        <div class="regulamente hero-image dota">
             <header>
             1v1 Dota 2, 10 RON/participant
             </header>
@@ -186,8 +194,11 @@
                 </ol>
             </div>
         </div>
+    </div>
 
-        <div class="regulamente  hero-image  metin">
+    
+    <div class="carousel-item">
+        <div class="regulamente hero-image  metin">
             <header>
             1v1 Metin2, 5 RON/participant
             </header>
@@ -203,11 +214,22 @@
                 </ol>
             </div>
         </div>
-
-        <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
-        <a class="next" onclick="nextSlide(1)">&#10095;</a>
-      </div>
     </div>
+    <!-- 
+    <div class="carousel-item">
+    </div>
+    -->
+  </div>
+  <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    
     <!-- Footer -->
     <?php
         include("footer.php");
