@@ -31,15 +31,15 @@
         </div>
         <!-- banner background taiat succes -->
         <div class="banner-competitive">
-            <div class="row title"> 
+            <div class="row title">
               <p id="title">Jocuri competitive</p>
               <p id="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
             </div>
             <div class="row gallery">
                 <img src="img/bannercompetitive.png" alt="">
-            </div>
+            </div><br>
             <div class="row">
-              <a href="" id="regulament">REGULAMENT</a>
+              <a href="regulament.php" id="regulament">REGULAMENT</a>
             </div>
         </div>
     </div>
@@ -49,5 +49,6 @@
         include("footer.php");
     ?>
   </div>
+  <script async src="assets/js/main.js"></script>
 </body>
 </html>
