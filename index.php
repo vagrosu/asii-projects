@@ -31,7 +31,7 @@
         </div>
         <div id="banner-video">
             <div id="left">
-            <iframe width="550" height="380" src="https://www.youtube.com/watch?v=856KxSrZCFU&ab_channel=Onatek"></iframe>
+            <iframe width="550" height="380" src="https://www.youtube.com/embed/856KxSrZCFU?fbclid=IwAR3toVsXOJHk44g6uLQe3R1nOlyLKA8mO2DwtramaUkInHko_9vJZT9r_pk"></iframe>
             </div>
             <div id="right">
               <p class="title">Lan Party Iasi 2019</p>
