@@ -350,3 +350,23 @@ input[type=reset]:hover, input[type=submit]:hover{
   background-color: rgba(252, 210, 111, 0.1);
   text-decoration: none;
 }
+
+.subtitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#fun {
+  margin: 30px auto;
+}
+
+#fun .title{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#inscrieri .title{
+  font-size: 40px;
+  font-weight: bold;
+
+}
