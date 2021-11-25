@@ -1,9 +1,11 @@
 <?php echo '
-<div class="" id="footer">
+<div class="mt-4 pt-1 pb-5" id="footer">
     <div class="container">
         <div class="row mt-5">
             <div class="col" id="logo">
-                <img src="img/logo.png">
+                <a href"/index.php">
+                    <img src="img/logo.png">
+                </a>
             </div>
             <div class="col text-start" id="coordonatori">
                 Coordonator: Teodor Dragoi
