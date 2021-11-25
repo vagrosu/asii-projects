@@ -1,5 +1,5 @@
 <?php
-echo '<div id="navbar">
+echo '<div id="navbar" class="sticky">
   <a href="index.php"><img src="img/logo.png" id="logo"></a>
   <div class="title">
     <span>LAN Party 2019 - 16/17 Martie</span>
