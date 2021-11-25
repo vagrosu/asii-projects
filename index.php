@@ -16,7 +16,7 @@
   <div id="main">
     <!-- Header aka navbar :D -->
     <?php
-        include("navbar.php");
+        include("assets/php/navbar.php");
     ?>
 
     <!-- Contents -->
@@ -35,10 +35,10 @@
             </div>
             <div id="right">
               <p class="title">Lan Party Iasi 2019</p>
-              <p>Evenimentul se va desfasura pe parcursul a doua saptamani 
-                (in week-end), si va da ocazia participantilor sa isi arate 
-                skill-urile la jocuri de tip competitiv CS:GO, DotA 2, 
-                HearthStone, sau va oferi o alternativa de a-ti cunoaste 
+              <p>Evenimentul se va desfasura pe parcursul a doua saptamani
+                (in week-end), si va da ocazia participantilor sa isi arate
+                skill-urile la jocuri de tip competitiv CS:GO, DotA 2,
+                HearthStone, sau va oferi o alternativa de a-ti cunoaste
                 colegii mai bine la jocurile de tip For Fun.</p>
             </div>
         </div>
@@ -50,7 +50,7 @@
             <div class="row gallery">
                 <img src="img/bannercompetitive.png" alt="">
             </div><br>
-            
+
         </div>
         <div class="banner-fun">
             <div class="row title-div">
@@ -72,9 +72,9 @@
         <p class="title">BILETE</p>
         <p class="subtitle">
           Dupa ce te-ai inscris poti sa iti achizitionezi
-          biletul de participare de la voluntarii nostri, 
-          pe care ii gasesti in holurile Facultatii de 
-          Informatica. Daca nu i-ai gasit, poti cumpara 
+          biletul de participare de la voluntarii nostri,
+          pe care ii gasesti in holurile Facultatii de
+          Informatica. Daca nu i-ai gasit, poti cumpara
           bilete chiar la intrarea la Party.
         </p>
       </div>
@@ -93,7 +93,7 @@
             <p>DOTA 2 1V1</p>
             <p>LOL 1V1</p>
             <p>HEARTHSTONE</p>
-            
+
             <a href="#">10 LEI</a>
           </div>
         </div>
@@ -119,7 +119,7 @@
 
     <!-- Footer -->
     <?php
-        include("footer.php");
+        include("assets/php/footer.php");
     ?>
   </div>
   <script async src="assets/js/main.js"></script>
