@@ -115,6 +115,26 @@
         </div>
     </div>
 
+    <div id="fun" class="container">
+      <div class="row">
+        <div class="text-center">
+          Unde va fi tot fun-ul?
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            2
+          </div>
+          <div class="row">
+            3
+          </div>
+        </div>
+        <div class="col">
+          1
+        </div>
+      </div>
+    </div>
 
 
     <!-- Footer -->
