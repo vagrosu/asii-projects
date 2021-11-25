@@ -8,9 +8,6 @@ html, body {
   font-family:Font_Titlu;
   overflow-x: hidden!important;
 }
-body{
-    background-color: rgb(35, 90, 100);
-}
 #inner{
   overflow-x: hidden!important;
 }
@@ -88,7 +85,7 @@ body {
 
   .regulamente{
     padding: 80px;
-    /*min-height: 500px;*/
+    height: 600px;
   }
 .center-list
 {
@@ -169,31 +166,6 @@ ol{
 
 @media only screen and (max-width: 768px) {
 
-.dot {
-    cursor: pointer;
-    height: 60px;
-    width: 110px;
-    margin: 0 2px;
-    background-color: rgba(58, 58, 58, 0.561);
-    border-radius: 15px;
-    display: inline-block;
-    justify-content: center;
-    transition: background-color 0.6s ease;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.dot img{
-    display: block;
-    height: 50px;
-    max-width: 100px;
-    margin-left: -5px!important;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-right: auto;
-    object-fit: contain;
-}
 .active img, .dot:hover img{
     height: 45px;
     max-width: 90px;
@@ -201,6 +173,7 @@ ol{
 }
 .regulamente{
   padding: 40px;
+  height:1000px;
 }
 
 .prev, .next {
