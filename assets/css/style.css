@@ -337,10 +337,10 @@ input[type=reset]:hover, input[type=submit]:hover{
 }
 
 .btn-portocaliu{
-  color: #fcb103;
-  border:2px solid #fcb103;
+  color: #fcb103!important;
+  border:2px solid #fcb103!important;
 }
 .btn-portocaliu:hover{
-  border:2px solid #fcb103;
-  background-color: #fcb103;
+  border:2px solid #fcb103!important;
+  background-color: #fcb103!important;
 }
