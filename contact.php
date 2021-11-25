@@ -16,7 +16,7 @@
   <div id="main">
     <!-- Header aka navbar :D -->
     <?php
-        include("navbar.php");
+        include("assets/php/navbar.php");
     ?>
 
     <!-- Contents -->
@@ -43,7 +43,7 @@
 
     <!-- Footer -->
     <?php
-        include("footer.php");
+        include("assets/php/footer.php");
     ?>
   </div>
   <script async src="assets/js/main.js"></script>

@@ -16,27 +16,49 @@
   <div id="main">
     <!-- Header aka navbar :D -->
     <?php
-        include("navbar.php");
+        include("assets/php/navbar.php");
     ?>
 
     <!-- Contents -->
     <div id="inner">
         <div class="banner-heroes">
-            <div class="title">
-              <p id="title">Participa si tu!</p>
-              <p id="subtitle">Pentru a simti spiritul de gamer, inscrie-te la competitiile 5v5 sau 1v1. Iti gasim noi echipa daca nu ti-ai convins inca prietenii sa vina.</p>
+            <div class="title-div">
+              <p class="title">Participa si tu!</p>
+              <p class="subtitle">Pentru a simti spiritul de gamer, inscrie-te la competitiile 5v5 sau 1v1. Iti gasim noi echipa daca nu ti-ai convins inca prietenii sa vina.</p>
             </div>
             <div class="heroes">
             </div>
         </div>
-        <!-- banner background taiat succes -->
+        <div id="banner-video">
+            <div id="left">
+            <iframe width="550" height="380" src="https://www.youtube.com/watch?v=856KxSrZCFU&ab_channel=Onatek"></iframe>
+            </div>
+            <div id="right">
+              <p class="title">Lan Party Iasi 2019</p>
+              <p>Evenimentul se va desfasura pe parcursul a doua saptamani
+                (in week-end), si va da ocazia participantilor sa isi arate
+                skill-urile la jocuri de tip competitiv CS:GO, DotA 2,
+                HearthStone, sau va oferi o alternativa de a-ti cunoaste
+                colegii mai bine la jocurile de tip For Fun.</p>
+            </div>
+        </div>
         <div class="banner-competitive">
-            <div class="row title">
-              <p id="title">Jocuri competitive</p>
-              <p id="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
+            <div class="row title-div">
+              <p class="title">Jocuri Competitive</p>
+              <p class="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
             </div>
             <div class="row gallery">
                 <img src="img/bannercompetitive.png" alt="">
+            </div><br>
+
+        </div>
+        <div class="banner-fun">
+            <div class="row title-div">
+              <p class="title">Jocuri For Fun</p>
+              <p class="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
+            </div>
+            <div class="row gallery">
+                <img src="img/bannerfun.png" alt="">
             </div><br>
             <div class="row">
               <a href="regulament.php" id="regulament">REGULAMENT</a>
@@ -44,9 +66,60 @@
         </div>
     </div>
 
+
+    <div id="tickets">
+      <div class="title-div">
+        <p class="title">BILETE</p>
+        <p class="subtitle">
+          Dupa ce te-ai inscris poti sa iti achizitionezi
+          biletul de participare de la voluntarii nostri,
+          pe care ii gasesti in holurile Facultatii de
+          Informatica. Daca nu i-ai gasit, poti cumpara
+          bilete chiar la intrarea la Party.
+        </p>
+      </div>
+      <div id="tickets-row">
+        <div class="ticket">
+          <div class="ticket-content-wrapper"></div>
+          <div class="content">
+            <p>LOL 5V5</p>
+            <p>FIFA 19</p>
+            <a href="#">12 LEI</a>
+          </div>
+        </div>
+        <div class="ticket">
+          <div class="ticket-content-wrapper"></div>
+          <div class="content">
+            <p>DOTA 2 1V1</p>
+            <p>LOL 1V1</p>
+            <p>HEARTHSTONE</p>
+
+            <a href="#">10 LEI</a>
+          </div>
+        </div>
+        <div class="ticket">
+          <div class="ticket-content-wrapper"></div>
+          <div class="content">
+            <p>METIN 2</p>
+            <p>CS:GO 3V3</p>
+            <a href="#">5 LEI</a>
+          </div>
+        </div>
+        <div class="ticket">
+          <div class="ticket-content-wrapper"></div>
+          <div class="content">
+            <p>FOR FUN</p>
+            <a href="#">4 LEI</a>
+          </div>
+        </div>
+        </div>
+    </div>
+
+
+
     <!-- Footer -->
     <?php
-        include("footer.php");
+        include("assets/php/footer.php");
     ?>
   </div>
   <script async src="assets/js/main.js"></script>

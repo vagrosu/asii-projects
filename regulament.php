@@ -17,7 +17,7 @@
   <div id="main">
     <!-- Header -->
     <?php
-        include("navbar.php");
+        include("assets/php/navbar.php");
     ?>
     <!-- Contents -->
     <div id="inner">
@@ -74,25 +74,25 @@
             </ol>
         </div>
       </div>
-    
-    
+
+
     <!-- CAROUSEL -->
-    
+
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
-    <div class="carousel-indicators">   
+    <div class="carousel-indicators">
 
     <!-- THUMBNAILS -->
             <img src="./media_regulament/cs.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
-        
+
 
             <img src="./media_regulament/lol1V1.png"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" >
-        
+
             <img src="./media_regulament/lol5V5.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-    
+
             <img src="./media_regulament/hs.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
-            
+
             <img src="./media_regulament/dota.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">
-            
+
             <img src="./media_regulament/metin2.png" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5">
 
     </div>
@@ -152,7 +152,7 @@
         </div>
     </div>
 
-    
+
     <div class="carousel-item">
         <div class="regulamente hero-image hs">
             <header>
@@ -172,7 +172,7 @@
         </div>
     </div>
 
-    
+
     <div class="carousel-item">
         <div class="regulamente hero-image dota">
             <header>
@@ -196,7 +196,7 @@
         </div>
     </div>
 
-    
+
     <div class="carousel-item">
         <div class="regulamente hero-image  metin">
             <header>
@@ -215,7 +215,7 @@
             </div>
         </div>
     </div>
-    <!-- 
+    <!--
     <div class="carousel-item">
     </div>
     -->
@@ -229,10 +229,10 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    
+
     <!-- Footer -->
     <?php
-        include("footer.php");
+        include("assets/php/footer.php");
     ?>
     <script src="assets/js/carousel-script.js"></script>
 </body>
