@@ -124,14 +124,17 @@
       <div class="row">
         <div class="col">
           <div class="row">
-            2
+            <div>
+              Competitia si consolele vor fi toate la sala VooDoo.
+              Sala se afla pe Bulevardul Independenței 25-27, dar pentru mai multe detalii puteti contacta coordonatorul evenimentului Teodor Dragoi la numarul 0747987693
+            </div>
           </div>
           <div class="row">
             3
           </div>
         </div>
         <div class="col">
-          1
+          <img src="img/fantana.png">
         </div>
       </div>
     </div>
