@@ -7,7 +7,7 @@ echo '<div id="navbar" class="sticky">
   <div class="navbar-buttons right">
     <a href="regulament.php">Regulament</a>
     <a href="contact.php">Contact</a>
-    <a href="#inscriere">Înscrie-te</a>
+    <a href="index.php#inscrieri">Înscrie-te</a>
   </div>
 </div>'
 
