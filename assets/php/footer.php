@@ -2,13 +2,13 @@
 <div class="mt-4 pt-4 pb-5" id="footer">
     <div class="container">
         <div class="row ml-0 mt-5">
-            <div class="col-xs-12 col-sm-6 col-xl-3 d-flex align-items-center justify-content-center mb-4" id="logo">
+            <div class="col-xs-12 col-sm-6 col-xl-3 d-flex align-items-center justify-content-center mb-4">
                 <a href"/index.php">
                     <img src="img/logo.png" >
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-xl-3 text-center mb-4" id="coordonatori">
-                Coordonator: Teodor Dragoi
+                Coordonator: Teodor Drăgoi
                 <br>
                 Email: teodorfdragoi@gmail.com
             </div>
@@ -28,11 +28,11 @@
         </div>
         <div class="row ml-0 mt-5">
             <div class="text-center" id="despre">
-                Asociaţia Studenţilor Informaticieni Ieşeni (ASII) este reprezentata de un grup de
-                persoane determinate, creative si dinamice, ce au in comun pasiunea pentru Informatica
-                si impartasesc un set de teluri si valori. Activitatile organizate in cadrul asociatiei
-                se adreseaza studentilor si profesorilor Facultatii de Informatica Iasi, dar si comunitatii
-                IT din Romania, dorind sa promoveze proactivitatea, dezvoltarea personala si sociala.
+                Asociaţia Studenţilor Informaticieni Ieşeni (ASII) este reprezentată de un grup de
+                persoane determinate, creative și dinamice, ce au în comun pasiunea pentru Informatică
+                și împărtașesc un set de țeluri și valori. Activitățile organizate în cadrul asociației
+                se adresează studenților și profesorilor Facultății de Informatică Iați, dar și comunității
+                IT din România, dorind să promoveze proactivitatea, dezvoltarea personală și socială.
             </div>
         </div>
         <div class="row ml-0 mt-5">
