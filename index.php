@@ -24,7 +24,7 @@
         <div class="banner-heroes">
             <div class="title-div">
               <p class="title">Participa si tu!</p>
-              <p class="subtitle">Pentru a simti spiritul de gamer, inscrie-te la competitiile 5v5 sau 1v1. Iti gasim noi echipa daca nu ti-ai convins inca prietenii sa vina.</p>
+              <p class="subtitle">Pentru a simți spiritul de gamer, înscrie-te la competițiile 5v5 sau 1v1. Îți găsim noi echipa dacă nu ți-ai convins încă prietenii să vină.</p>
             </div>
             <div class="heroes">
             </div>
@@ -34,51 +34,52 @@
             <iframe width="550" height="380" src="https://www.youtube.com/embed/856KxSrZCFU?fbclid=IwAR3toVsXOJHk44g6uLQe3R1nOlyLKA8mO2DwtramaUkInHko_9vJZT9r_pk"></iframe>
             </div>
             <div id="right">
-              <p class="title">Lan Party Iasi 2019</p>
-              <p>Evenimentul se va desfasura pe parcursul a doua saptamani
-                (in week-end), si va da ocazia participantilor sa isi arate
+              <p class="title">Lan Party Iași 2019</p>
+              <p>Evenimentul se va desfășura pe parcursul a două săptămâni
+                (în weekend), și va da ocazia participanților să își arate
                 skill-urile la jocuri de tip competitiv CS:GO, DotA 2,
-                HearthStone, sau va oferi o alternativa de a-ti cunoaste
+                HearthStone, sau va oferi o alternativă de a-ți cunoaște
                 colegii mai bine la jocurile de tip For Fun.</p>
             </div>
         </div>
-        <div class="banner-competitive">
+        <div class="banner-competitive container">
             <div class="row title-div">
-              <p class="title">Jocuri Competitive</p>
-              <p class="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
+              <h2 class="title text-center">Jocuri Competitive</h2>
+              <p style="font-size:20px; font-weight:bold; margin:0 20px; text-align:center">Fiecare joc promite multe premii, de la tricouri geeky și medalii, până la skin-uri și cosmetice in-game. Gotta win 'em all!</p>
             </div>
             <div class="row gallery">
                 <img src="img/bannercompetitive.png" alt="">
             </div><br>
 
         </div>
-        <div class="banner-fun">
+        <div class="banner-fun container">
             <div class="row title-div">
-              <p class="title">Jocuri For Fun</p>
-              <p class="subtitle">Fiecare joc promite multe premii, de la tricouri geeky si medalii, pana la skin-uri si cosmetice in-game. Gotta win 'em all!</p>
+              <h2 class="title text-center">Jocuri For Fun</h2>
+              <p style="font-size:20px; font-weight:bold; margin:0 20px; text-align:center">Fiecare joc promite multe premii, de la tricouri geeky și medalii, până la skin-uri și cosmetice in-game. Gotta win 'em all!</p>
             </div>
             <div class="row gallery">
-                <img src="img/bannerfun.png" alt="">
+                <img src="img/bannerfun.png">
             </div><br>
             <div class="row">
               <a href="regulament.php" id="regulament">REGULAMENT</a>
             </div>
         </div>
-    </div>
 
 
-    <div id="tickets">
+
+    <div id="tickets" class="container">
       <div class="title-div">
-        <p class="title">BILETE</p>
-        <p class="subtitle">
-          Dupa ce te-ai inscris poti sa iti achizitionezi
-          biletul de participare de la voluntarii nostri,
-          pe care ii gasesti in holurile Facultatii de
-          Informatica. Daca nu i-ai gasit, poti cumpara
+        <h2 class="title text-center">Bilete</h2>
+        <p style="font-size:20px; font-weight:bold; margin:0 20px; text-align:center">
+          După ce te-ai înscris poți să iți achiziționezi
+          biletul de participare de la voluntarii noștri,
+          pe care îi găsești în holurile Facultății de
+          Informatică.
+          <br>Dacă nu i-ai găsit, poți cumpăra
           bilete chiar la intrarea la Party.
         </p>
       </div>
-      <div id="tickets-row">
+      <div id="tickets-row" class="container">
         <div class="ticket">
           <div class="ticket-content-wrapper"></div>
           <div class="content">
@@ -125,8 +126,8 @@
         <div class="col">
           <div class="row">
             <div class="text-center mb-4 subtitle">
-              Competitia si consolele vor fi toate la sala VooDoo.
-              Sala se afla pe Bulevardul Independenței 25-27, dar pentru mai multe detalii puteti contacta coordonatorul evenimentului Teodor Dragoi la numarul 0747987693
+              Competiția și consolele vor fi toate la sala VooDoo.
+              Sala se află pe Bulevardul Independenței 25-27, dar pentru mai multe detalii puteți contacta coordonatorul evenimentului Teodor Drăgoi, la numărul de telefon 0747987693.
             </div>
           </div>
           <div class="row">
@@ -141,13 +142,13 @@
 
     <div id="inscrieri" class="container mt-5 mb-5 ">
       <div class="text-center title">
-        Inscrieri!
+        Înscrieri!
       </div>
       <div class="text-center mt-4 subtitle">
         Înscrierile se pot face începând cu data de 5 Martie, de luni pana vineri, la parterul Facultății de Informatică, între orele 10-20
       </div>
     </div>
-
+</div>
     <!-- Footer -->
     <?php
         include("assets/php/footer.php");
