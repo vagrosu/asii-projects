@@ -20,7 +20,7 @@
     ?>
 
     <!-- Contents -->
-    <div id="inner">
+     <div id="inner">
         <div class="banner-heroes">
             <div class="title-div">
               <p class="title">Participa si tu!</p>
@@ -114,28 +114,30 @@
           </div>
         </div>
         </div>
-    </div>
+    </div> 
 
-    <div id="fun" class="container ">
-      <div class="row">
+    <div id="fun" class="container">
+      <div class="row mx-0">
         <div class="text-center mb-5 title">
           Unde va fi tot fun-ul?
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="row">
-            <div class="text-center mb-4 subtitle">
+      <div class="row mx-0">
+        <div class="col col-md-12 col-lg-6">
+          <div class="row mx-0">
+            <div class="text-center mb-5 subtitle">
               Competiția și consolele vor fi toate la sala VooDoo.
               Sala se află pe Bulevardul Independenței 25-27, dar pentru mai multe detalii puteți contacta coordonatorul evenimentului Teodor Drăgoi, la numărul de telefon 0747987693.
             </div>
           </div>
-          <div class="row">
-            <img src="img/voodoo.png">
+          <div class="row mx-0">
+            <div class="col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1098.074060492574!2d27.588684973082074!3d47.16618150760155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c29ba8d7583d891!2sVooDoo%20Games%20Club!5e0!3m2!1sro!2sro!4v1638656376492!5m2!1sro!2sro" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+            </div>
           </div>
         </div>
-        <div class="col">
-          <img src="img/fantana.png">
+        <div class="col col-md-0 col-lg-6  d-none d-lg-block">
+          <img src="img/fantana.png" width="100%" height="100%">
         </div>
       </div>
     </div>
@@ -148,6 +150,7 @@
         Înscrierile se pot face începând cu data de 5 Martie, de luni pana vineri, la parterul Facultății de Informatică, între orele 10-20
       </div>
     </div>
+
 </div>
     <!-- Footer -->
     <?php
