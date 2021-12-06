@@ -29,19 +29,26 @@
             <div class="heroes">
             </div>
         </div>
-        <div id="banner-video">
-            <div id="left">
-            <iframe width="550" height="380" src="https://www.youtube.com/embed/856KxSrZCFU?fbclid=IwAR3toVsXOJHk44g6uLQe3R1nOlyLKA8mO2DwtramaUkInHko_9vJZT9r_pk"></iframe>
+
+        <div id="banner-video" class="container">
+          <div class="row mx-0 align-items-center justify-content-center">
+            <div class="col col-xl-6 col-lg-0 text-center d-none d-xl-block">
+              <iframe width="550" height="380" src="https://www.youtube.com/embed/856KxSrZCFU?fbclid=IwAR3toVsXOJHk44g6uLQe3R1nOlyLKA8mO2DwtramaUkInHko_9vJZT9r_pk" allowfullscreen></iframe>
             </div>
-            <div id="right">
+            <div class="col col-xl-6 col-lg-12 text-center">
               <p class="title">Lan Party Iași 2019</p>
-              <p>Evenimentul se va desfășura pe parcursul a două săptămâni
+              <p class="subtitle">Evenimentul se va desfășura pe parcursul a două săptămâni
                 (în weekend), și va da ocazia participanților să își arate
                 skill-urile la jocuri de tip competitiv CS:GO, DotA 2,
-                HearthStone, sau va oferi o alternativă de a-ți cunoaște
+                HearthStone, sau va oferi o alternativă de a-ți cunoaște 
                 colegii mai bine la jocurile de tip For Fun.</p>
             </div>
+            <div class="col-12 text-center d-xl-none video-wrapper">
+              <iframe width="550" height="380" src="https://www.youtube.com/embed/856KxSrZCFU?fbclid=IwAR3toVsXOJHk44g6uLQe3R1nOlyLKA8mO2DwtramaUkInHko_9vJZT9r_pk" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
+
         <div class="banner-competitive container">
             <div class="row title-div">
               <h2 class="title text-center">Jocuri Competitive</h2>
