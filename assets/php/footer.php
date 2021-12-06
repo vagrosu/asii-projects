@@ -31,7 +31,7 @@
                 Asociaţia Studenţilor Informaticieni Ieşeni (ASII) este reprezentată de un grup de
                 persoane determinate, creative și dinamice, ce au în comun pasiunea pentru Informatică
                 și împărtașesc un set de țeluri și valori. Activitățile organizate în cadrul asociației
-                se adresează studenților și profesorilor Facultății de Informatică Iați, dar și comunității
+                se adresează studenților și profesorilor Facultății de Informatică Iași, dar și comunității
                 IT din România, dorind să promoveze proactivitatea, dezvoltarea personală și socială.
             </div>
         </div>
