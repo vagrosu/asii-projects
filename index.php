@@ -50,22 +50,29 @@
         </div>
 
         <div class="banner-competitive container">
-            <div class="row title-div">
-              <h2 class="title text-center">Jocuri Competitive</h2>
-              <p style="font-size:20px; font-weight:bold; margin:0 20px; text-align:center">Fiecare joc promite multe premii, de la tricouri geeky și medalii, până la skin-uri și cosmetice in-game. Gotta win 'em all!</p>
+            <div class="row text-center">
+              <h2 class="title">Jocuri Competitive</h2>
+              <p class="subtitle">Fiecare joc promite multe premii, de la tricouri geeky și medalii, până la skin-uri și cosmetice in-game. Gotta win 'em all!</p>
             </div>
-            <div class="row gallery">
+            <div class="row d-none d-md-block">
                 <img src="img/bannercompetitive.png" alt="">
-            </div><br>
-
-        </div>
-        <div class="banner-fun container">
-            <div class="row title-div">
-              <h2 class="title text-center">Jocuri For Fun</h2>
-              <p style="font-size:20px; font-weight:bold; margin:0 20px; text-align:center">Fiecare joc promite multe premii, de la tricouri geeky și medalii, până la skin-uri și cosmetice in-game. Gotta win 'em all!</p>
             </div>
-            <div class="row gallery">
+            <div class="row d-md-none">
+                <img src="img/bannercompetitiveMobile.png" alt="">
+            </div>
+            <br>
+        </div>
+
+        <div class="banner-fun container my-5">
+            <div class="row text-center">
+              <h2 class="title">Jocuri For Fun</h2>
+              <p class="subtitle">Fiecare joc promite multe premii, de la tricouri geeky și medalii, până la skin-uri și cosmetice in-game. Gotta win 'em all!</p>
+            </div>
+            <div class="row d-none d-md-block">
                 <img src="img/bannerfun.png">
+            </div>
+            <div class="row d-md-none">
+                <img src="img/bannerfunMobile.png">
             </div><br>
             <div class="row">
               <a href="regulament.php" id="regulament">REGULAMENT</a>
