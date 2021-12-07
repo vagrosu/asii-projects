@@ -1,5 +1,5 @@
 <?php echo '
-<div class="mt-4 pt-4 pb-5">
+<div class="mt-4 pt-4 pb-5" id="footer">
     <div class="container">
         <div class="row ml-0 mt-5">
             <div class="col-xs-12 col-sm-6 col-xl-3 d-flex align-items-center justify-content-center mb-4">
