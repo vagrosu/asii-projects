@@ -37,7 +37,8 @@
                   <li><input type="reset" value="Resetează" /></li>
                 </ul>
               </div>
-          </form>
+          </form><br><br><br>
+          <h5>Puteți contacta și voluntarii noștri pe care îi veți găsi pe holurile Facultății de Informatică.</h5>
         </div>
     </div>
 
