@@ -35,7 +35,7 @@
                 </div>
             </div>
       </div>
-      <div class="row regulamente">
+      <div class="row pad">
         <header>
         Regulament de ordine interioara:
         </header>
