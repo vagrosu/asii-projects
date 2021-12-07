@@ -168,7 +168,10 @@ ol{
 
 
 @media only screen and (max-width: 768px) {
-
+#inner{
+  
+  padding-bottom: 0 !important;
+}
 .active img, .dot:hover img{
     height: 45px;
     max-width: 90px;

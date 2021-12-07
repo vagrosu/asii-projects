@@ -235,5 +235,6 @@
         include("assets/php/footer.php");
     ?>
     <script src="assets/js/carousel-script.js"></script>
+    <script async src="assets/js/main.js"></script>
 </body>
 </html>
