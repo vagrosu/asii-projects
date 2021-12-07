@@ -224,7 +224,7 @@ input[type=reset]:hover, input[type=submit]:hover{
 }
 
 
-.banner-competitive,.banner-fun{
+.banner-competitive,.banner-fun, #banner-video{
   min-height: 90vh;
   width: 100%;
   padding: 100px 20px 00px 20px;
@@ -237,9 +237,8 @@ input[type=reset]:hover, input[type=submit]:hover{
   padding-top: 0;
 }
 
-.banner-competitive .title,.banner-competitive .subtitle,.banner-fun .title,.banner-fun .subtitle{
-  text-align: center;
-  font-size: 22px;
+.banner-competitive .subtitle,.banner-fun .subtitle{
+  font-size: 20px;
 }
 
 .banner-competitive .title,.banner-fun .title{
