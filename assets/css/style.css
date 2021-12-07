@@ -34,6 +34,9 @@ body{
   #navbar .title{
       display: none;
   }
+  #inner .contact-form{
+    width: 70%;
+  }
 }
 @media screen and (max-width:800px){
   #navbar{
@@ -109,7 +112,6 @@ header.major{
   text-align:center;
   width: 45%;
   margin:auto;
-  margin-bottom:150px;
 }
 .contact-form .actions{
   list-style: none;
